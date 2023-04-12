@@ -1,0 +1,39 @@
+{
+    "appName":"",
+    "purchaseCode":"",
+    "adminEmail":"",
+    "firebaseConfig":{
+        "apiKey": "",
+        "authDomain": "",
+        "databaseURL": "",
+        "projectId": "",
+        "storageBucket": "",
+        "messagingSenderId": "",
+        "appId": ""
+    },
+    "pricing" : {
+        "plans" : [{
+          "allowdQty" : 1,
+          "features" : ["Make 1 app","Docs only"],
+          "id" : 11111,
+          "image" : "https://i.postimg.cc/w1yx6scH/icon-paper2.png",
+          "name" : "Starter",
+          "price" : "10$ / m"
+        }, {
+          "allowdQty" : 10,
+          "features" : ["Make 10 apps","Dedicated support"],
+          "id" : 11111,
+          "image" : "https://i.postimg.cc/678MbBXM/plane.png",
+          "name" : "Pro",
+          "price" : "500$ / m"
+        }],
+        "vendorID" : 11111
+    },
+    "SMTP":{
+        "serverName":"smtp.gmail.com",
+        "username":"",
+        "password":"",
+        "port":465
+    }
+
+}
